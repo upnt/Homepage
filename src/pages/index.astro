@@ -3,10 +3,12 @@ import BaseLayout from "../layouts/BaseLayout.astro"
 import { profile } from "../data/profile"
 ---
 
-<BaseLayout>
-	<Fragment slot="title">About</Fragment>
+<BaseLayout pageTitle="upnt - About">
+	<Fragment slot="title">
+		About
+	</Fragment>
 	<Fragment slot="main">
 		<h2 class="text-2xl font-semibold mb-2">{profile.name}</h2>
-		<p class="mb-4">研究者志望</p>
+		<p class="mb-4">研究者志望のエンジニア。QUBOなど最適化関連の研究をやっています。</p>
 	</Fragment>
 </BaseLayout>
