@@ -1,39 +1,14 @@
 {
-  "devDependencies": {
-    "@types/react": "^17.0.37",
-    "@types/react-dom": "^17.0.11",
-    "html-webpack-plugin": "^5.5.0",
-    "ts-loader": "^9.2.6",
-    "typescript": "^4.5.2",
-    "webpack": "^5.64.4",
-    "webpack-cli": "^4.9.1"
-  },
   "name": "homepage",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/upnt/homepage.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/upnt/homepage/issues"
-  },
-  "homepage": "https://github.com/upnt/homepage#readme",
   "dependencies": {
-    "@emotion/react": "^11.7.0",
-    "@emotion/styled": "^11.6.0",
-    "@material-ui/core": "^4.12.3",
-    "@material-ui/icons": "^4.11.2",
-    "@mui/material": "^5.2.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "astro": "^5.12.1"
   }
 }
