@@ -4,11 +4,9 @@ import { profile } from "../data/profile"
 ---
 
 <BaseLayout>
-	<Fragment slot="title">{profile.name}</Fragment>
-	<p class="mb-4">研究者志望</p>
-	<p class="text-lg">
-		Github: <a href={profile.github_url} class="text-blue-600 underline">
-			{profile.github}
-		</a>
-	</p>
+	<Fragment slot="title">About</Fragment>
+	<Fragment slot="main">
+		<h2 class="text-2xl font-semibold mb-2">{profile.name}</h2>
+		<p class="mb-4">研究者志望</p>
+	</Fragment>
 </BaseLayout>
