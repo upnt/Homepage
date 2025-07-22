@@ -1,0 +1,26 @@
+---
+import "../styles/global.css"
+import { profile } from "../data/profile"
+---
+
+<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<title><slot name="title" /></title>
+	</head>
+	<body class="bg-white text-gray-900 font-sans">
+		<header class="bg-gray-100 py-4 px-6 shadow">
+			<h1 class="text-xl fond-bold">My Portfolio</h1>
+		</header>
+		<main class="max-w-3xl mx-auto p-6">
+			<slot />
+		</main>
+		<footer class="text-sm text-gray-600 text-center py-4 border-t mt-10">
+			&copy; 2025 {profile.name}
+		</footer>
+	</body>
+</html>
+
