@@ -1,8 +1,4 @@
-# Astro Starter Kit: Basics
-
-```sh
-npm create astro@latest -- --template basics
-```
+# [My Homepage](https://upnt.github.io/Homepage/)
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
 [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
@@ -22,14 +18,21 @@ Inside of your Astro project, you'll see the following folders and files:
 │   └── favicon.svg
 ├── src
 │   ├── assets
-│   │   └── astro.svg
+│   │   └── None
 │   ├── components
-│   │   └── Welcome.astro
+│   │   └── None
+│   ├── data
+│   │   └── profile.ts
 │   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+│   │   └── BaseLayout.astro
+│   ├── pages
+│   │   └── index.astro
+│   └── styles
+│       └── global.css
+├── astro.config.mjs
+├── package-lock.json
+├── package.json
+└── tsconfig.json
 ```
 
 To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
